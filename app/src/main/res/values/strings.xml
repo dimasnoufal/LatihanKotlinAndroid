@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LatihanKotlinAndroid</string>
+    <string name="register">REGISTER</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
 </resources>
