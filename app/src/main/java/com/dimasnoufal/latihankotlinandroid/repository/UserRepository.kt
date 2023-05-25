@@ -1,5 +1,6 @@
 package com.dimasnoufal.latihankotlinandroid.repository
 
+import com.dimasnoufal.latihankotlinandroid.model.LoginResponse
 import com.dimasnoufal.latihankotlinandroid.model.RegisterResponse
 import retrofit2.Call
 
@@ -10,4 +11,9 @@ interface UserRepository {
         password: String?,
         namaLengkap: String?
     ): Call<RegisterResponse>
+
+    fun requestLogin(
+        username: String?,
+        password: String?,
+    ): Call<LoginResponse>
 }
