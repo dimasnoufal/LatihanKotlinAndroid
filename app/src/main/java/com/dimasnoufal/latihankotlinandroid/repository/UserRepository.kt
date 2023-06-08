@@ -2,6 +2,8 @@ package com.dimasnoufal.latihankotlinandroid.repository
 
 import com.dimasnoufal.latihankotlinandroid.model.LoginResponse
 import com.dimasnoufal.latihankotlinandroid.model.RegisterResponse
+import com.dimasnoufal.latihankotlinandroid.model.ResponseUser
+import com.dimasnoufal.latihankotlinandroid.model.UserByIdResponse
 import retrofit2.Call
 
 interface UserRepository {
@@ -16,4 +18,8 @@ interface UserRepository {
         username: String?,
         password: String?,
     ): Call<LoginResponse>
+
+    fun getDataUser(): Call<ResponseUser>
+
+    fun getDataUserById(idUser: String?): Call<UserByIdResponse>
 }
