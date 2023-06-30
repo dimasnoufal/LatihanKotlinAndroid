@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
-import com.dimasnoufal.latihankotlinandroid.R
 import com.dimasnoufal.latihankotlinandroid.databinding.ActivityMainBinding
 import com.dimasnoufal.latihankotlinandroid.ui.viewmodel.LoginViewModel
 
